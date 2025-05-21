@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mulya Furniture</title>
+    <link rel="icon" type="image/svg+xml" href="asset/kategori/logo.png"/>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #ffffff">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="asset/kategori/logo.png" alt="" class="logoNav" />
+          Mulya <strong>Furniture</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" >
+          <form class="d-flex ms-auto my-2 my-lg-0" id="searchForm">
+            <input class="form-control me-2" id="search-input" type="search" placeholder="Search Product By Name, Category...." aria-label="Search" />
+            <button class="btn btn" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button> 
+          </form>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#" id="login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#" id="signUp">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="whatsapp-float">
+        <a href="https://wa.me/6283862591504" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
+    </div>
+    <!-- akhir navbar  -->
+
+    <!-- bg -->
+    <div class="container mt-0">
+    <div id="furnitureCarousel" class="carousel slide carousel-fade" style="max-width: 900px; margin: 0 auto;" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#furnitureCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#furnitureCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#furnitureCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#furnitureCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#furnitureCarousel" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#furnitureCarousel" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#furnitureCarousel" data-bs-slide-to="6"></button>
+        </div>
+        
+        <!-- Slides -->
+        <div class="carousel-inner rounded-3">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="asset/imgMjf/kitchen1.jpeg" class="d-block w-100 img-fluid carousel-img" alt="Modern Kitchen Design">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Luxury Kitchen Set</h5>
+                    <p>Premium quality materials with elegant design</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="asset/imgMjf/kitchen4.jpeg" class="d-block w-100 img-fluid carousel-img" alt="Contemporary Kitchen">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Contemporary Kitchen</h5>
+                    <p>Modern design with maximum functionality</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="asset/imgMjf/buffet.jpeg" class="d-block w-100 img-fluid carousel-img" alt="Elegant Buffet">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Elegant Buffet</h5>
+                    <p>Perfect for your dining room</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="asset/imgMjf/kaca.jpeg" class="d-block w-100 img-fluid carousel-img" alt="Glass Cabinet">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Glass Display Cabinet</h5>
+                    <p>Showcase your precious items</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="asset/imgMjf/miniBar1.jpeg" class="d-block w-100 img-fluid carousel-img" alt="Mini Bar">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Stylish Mini Bar</h5>
+                    <p>Compact yet functional</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="asset/imgMjf/kitchen5.jpeg" class="d-block w-100 img-fluid carousel-img" alt="Kitchen Design">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Custom Kitchen</h5>
+                    <p>Tailored to your space</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="asset/imgMjf/kitchen2.jpeg" class="d-block w-100 img-fluid carousel-img" alt="Kitchen Cabinet">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Premium Kitchen Cabinet</h5>
+                    <p>Durable and stylish</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#furnitureCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#furnitureCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </div>
+    <!-- akhir bg -->
+
+    <!-- list -->
+    <section class="list mt-5" id="list" style="background-color: #fafafafa">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mt-5">
+            <h2>Koleksi Furnitur dan Dekorasi</h2>
+          </div>
+        </div>
+        <div class="row mt-5 text-center">
+          <div class="col-sm-4">
+            <a href="" class="imgList">
+              <img src="asset/imgMjf/miniBar1.jpeg" />
+            </a>
+            <h4 class="fs-5 fw-800" style="color: #949494">Mini Barr</h4>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="imgList">
+              <img src="asset/imgMjf/tangga.jpeg" />
+            </a>
+            <h4 class="fs-5 fw-800" style="color: #949494">Bufet Bawah Tangga</h4>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="imgList">
+              <img src="asset/imgMjf/kitchen2.jpeg"/>
+            </a>
+            <h4 class="fs-5 fw-800" style="color: #949494">Kitchen Set</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir list -->
+
+    <!-- kategori -->
+    <section class="category" id="category">
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-sm-12 text-center mt-5">
+            <h2>Kategori</h2>
+          </div>
+        </div>
+        <div class="row text-center mt-5">
+          <div class="col-sm-3">
+            <a href="#" class="thumbnail">
+              <img src="asset/produk/bglemari.jpg" alt="" class="img1" />
+            </a>
+            <h4 class="fs-5 fw-800" style="color: #949494">Lemari</h4>
+          </div>
+          <div class="col-sm-3">
+            <a href="#" class="thumbnail">
+              <img src="asset/produk/chair-removebg-preview (1).png" alt="" class="img2" />
+            </a>
+            <h4 class="fs-5 fw-800" style="color: #949494">Kursi</h4>
+          </div>
+          <div class="col-sm-3">
+            <a href="#" class="thumbnail">
+              <img src="asset/produk/fsdfsdfsdf-removebg-preview (1).png" alt="" class="img3" />
+            </a>
+            <h4 class="fs-5 fw-800" style="color: #949494">Kitchen Set</h4>
+          </div>
+          <div class="col-sm-3">
+            <a href="#" class="thumbnail">
+              <img src="asset/produk/buffet.jpg" alt="" class="img4" />
+            </a>
+            <h4 class="fs-5 fw-800" style="color: #949494">Bufet</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir kategori -->
+
+    <!-- awal produk -->
+    <section class="product pb-4" style="background-color: #fafafa">
+      <div class="container">
+        <div class="row" id="productContainer">
+          <div class="col-md-3 col-sm-2 col-6 product-item" data-product-name="kitchen1" data-category="kitchen1">
+            <div class="card-pro card mb-4">
+              <img src="asset/imgMjf/kitchen1.jpeg" class="card-img-top img-product" id="imgPro" alt="Chair Modern" />
+              <div class="card-body">
+                <p class="card-text text-secondary">Kitchen Set</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333"></h6>
+                <a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Modern" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-2 col-6 product-item" data-product-name="kitchen Minimalist" data-category="kitchen2">
+            <div class="card-pro card mb-4">
+              <img src="asset/imgMjf/kitchen2.jpeg" class="card-img-top img-product" id="imgPro" alt="Chair Buyut" />
+              <div class="card-body">
+                <p class="card-text text-secondary">Kitchen Set Minimalist</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333"></h6>
+                <a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Buyut" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-2 col-6 product-item" data-product-name="kaca ruang tamu" data-category="kaca">
+            <div class="card-pro card mb-4">
+              <img src="asset/imgMjf/kaca.jpeg" class="card-img-top img-product" id="imgPro" alt="Chair Purba" />
+              <div class="card-body">
+                <p class="card-text text-secondary">Kaca Ruang Ramu</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333"></h6>
+                <a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Purba" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-2 col-6 product-item" data-product-name="miniBar" data-category="miniBar">
+            <div class="card-pro card mb-4">
+              <img src="asset/imgMjf/miniBar.jpeg" class="card-img-top img-product" id="imgPro" alt="" />
+              <div class="card-body">
+                <p class="card-text text-secondary">Mini Bar</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333"></h6>
+                <a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Kuno" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-2 col-6 product-item" data-product-name="miniBar" data-category="miniBar">
+            <div class="card-pro card mb-4">
+              <img src="asset/imgMjf/miniBar.jpeg" class="card-img-top img-product" id="imgPro" alt="" />
+              <div class="card-body">
+                <p class="card-text text-secondary">Mini Bar Minimalist</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333"></h6>
+                <a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Modern" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-2 col-6 product-item" data-product-name="Rak Bawah Tangga" data-category="Rak Bawah Tangga">
+            <div class="card-pro card mb-4">
+              <img src="asset/imgMjf/tangga.jpeg" class="card-img-top img-product" id="imgPro" alt="" />
+              <div class="card-body">
+                <p class="card-text text-secondary">Rak Bawah Tangga</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333"></h6>
+                <a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Modern" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-2 col-6 product-item" data-product-name="Kitchen Set Bawah" data-category="Kitchen Bawah">
+            <div class="card-pro card mb-4">
+              <img src="asset/imgMjf/kitchenBawah.jpeg" class="card-img-top img-product" id="imgPro" alt="" />
+              <div class="card-body">
+                <p class="card-text text-secondary">Kitchen Set Bawah</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333"></h6>
+                <a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Modern" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-2 col-6 product-item" data-product-name="Bufet Minimalist" data-category="Bufet Minimalist">
+            <div class="card-pro card mb-4">
+              <img src="asset/imgMjf/buffet.jpeg" class="card-img-top img-product" id="imgPro" alt="" />
+              <div class="card-body">
+                <p class="card-text text-secondary">Bufet Minimalist</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333"></h6>
+                <a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Modern" target="_blank" rel="noopener noreferrer" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-3 col-sm-2 col-6">
+            <div class="card mb-4" style="width: 15rem">
+              <img src="asset/produk/bufet.jpg" class="card-img-top" style="width: 239px; height: 150px" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Sideboard Modern Minimalist</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333">IDR 2.700.000</h6>
+                <a href="#" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-3 col-sm-2 col-6">
+            <div class="card mb-4" style="width: 15rem">
+              <img src="asset/produk/bedroom1.jpg" class="card-img-top" style="width: 239px; height: 150px" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Modern Bedroom Ideas</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333">IDR 4.400.000</h6>
+                <a href="#" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-3 col-sm-2 col-6">
+            <div class="card mb-4" style="width: 15rem">
+              <img src="asset/produk/chair modern.jpg" class="card-img-top" style="width: 239px; height: 150px" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Aesthetic Lounge Chair</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333">IDR 2.499.000</h6>
+                <a href="#" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-3 col-sm-2 col-6">
+            <div class="card mb-4" style="width: 15rem">
+              <img src="asset/produk/kicenset1.jpg" class="card-img-top" style="width: 239px; height: 150px" alt="..." />
+              <div class="card-body">
+                <p class="card-text">Kitchen Set Kitchen Shelf</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333">IDR 6.890.000</h6>
+                <a href="#" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="col-md-3 col-sm-2 col-6">
+            <div class="card mb-4" style="width: 15rem">
+              <img src="asset/produk/lemari2.jpg" class="card-img-top" style="width: 239px; height: 150px" alt="..." />
+              <div class="card-body">
+                <p class="card-text">2 Door Modern Wardrobe</p>
+                <h6 class="card-title mb-3 fw-bold" style="color: #333333">IDR 3.200.000</h6>
+                <a href="#" class="btn btn-primary d-grid">Buy Now</a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- akhir produk -->
+
+    <!-- footer -->
+    <footer class="pt-5" style="background-color: #e0e0e0">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3 class="fs-5">Product</h3>
+            <hr />
+            <ul class="list-unstyled text-secondary">
+              <li>Kitchen Set</li>
+              <li>Lemari</li>
+              <li>Meja</li>
+              <li>Kursi</li>
+              <li>Canopy</li>
+              <li>Jendel Besi</li>
+              <li>Partisi Kaca</li>
+              <li>Pintu Almunium</li>
+              <li>Dll</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="fs-5">Contact</h3>
+            <hr />
+            <ul class="list-unstyled text-secondary">
+              <li><a href="https://wa.me/6283862591504?text=Halo%20saya%20tertarik%20dengan%20produk%20Chair%20Modern">WhatsApp</a></li>
+              <li><a href="https://instagram.com">Instagram</a></li>
+              <li><a href="https://gmail.com">Gmail</a></li>
+              <li><a href="https://tiktok.com">TikTok</a></li>
+              <li><a href="https://maps.app.goo.gl/ZDqbWUg68Xi2D2Rv6?g_st=com.google.maps.preview.copy">Maps</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3 class="fs-4">Payment</h3>
+            <div class="payment mt-3">
+              <img src="asset/produk/bri.png" alt="" />
+              <img src="asset/produk/ovo.png" alt="" />
+              <img src="asset/produk/gopay.png" alt="" />
+              <img src="asset/produk/mandiri.png" alt="" />
+              <img src="asset/produk/bcaklikpay.png" alt="" />
+              <img src="asset/produk/visa.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="script.js"></script>
+  </body>
+</html>
